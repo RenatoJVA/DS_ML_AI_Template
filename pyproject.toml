@@ -5,6 +5,7 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
+    "db-sqlite3>=0.0.1",
     "dvc>=3.63.0",
     "fastapi>=0.120.0",
     "ipykernel>=7.0.1",
