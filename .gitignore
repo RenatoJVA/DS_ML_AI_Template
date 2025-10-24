@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.Python
+.venv/
+venv/
+env/
+*.env
+uv.lock # uv lock file
+uv/ # uv venv directory
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Data
+data/01_raw/ # Raw data should not be committed
+data/02_intermediate/ # Intermediate data
+data/03_processed/ # Processed data
+data/04_models/ # Trained models
+
+# Logs
+*.log
+log/
+logs/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store # macOS
+Thumbs.db # Windows
+
+# Docker
+*.dockerignore
+docker-compose.override.yml # If used for local overrides
+
+# Environment variables
+.env

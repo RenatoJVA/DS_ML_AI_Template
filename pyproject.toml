@@ -1,0 +1,31 @@
+[project]
+name = "base_template"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "dvc>=3.63.0",
+    "fastapi>=0.120.0",
+    "ipykernel>=7.0.1",
+    "langchain>=1.0.2",
+    "langgraph>=1.0.1",
+    "pandas>=2.3.3",
+    "polars>=1.34.0",
+    "psycopg2>=2.9.11",
+    "pydantic>=2.12.3",
+    "python-dotenv>=1.1.1",
+    "scikit-learn>=1.7.2",
+    "seaborn>=0.13.2",
+    "sqlalchemy>=2.0.44",
+    "torch>=2.9.0",
+    "uvicorn>=0.38.0",
+]
+
+[dependency-groups]
+dev = [
+    "loguru>=0.7.3",
+    "pre-commit>=4.3.0",
+    "pytest>=8.4.2",
+    "ruff>=0.14.2",
+]
